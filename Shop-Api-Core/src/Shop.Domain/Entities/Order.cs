@@ -6,7 +6,7 @@ public sealed class Order
 {
     public Guid Id { get; set; }
     public Guid CustomerId { get; set; }
-    public string OrderNumber { get; set; } = string.Empty;
+    public string OrderNumber { get; set; }
     public OrderStatus Status { get; set; }
     public decimal Subtotal { get; set; }
     public decimal DiscountTotal { get; set; }
